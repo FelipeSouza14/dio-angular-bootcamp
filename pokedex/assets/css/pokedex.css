@@ -32,6 +32,8 @@
 
 .pokemon .name {
     color: white;
+    margin-bottom: .25rem;
+    text-transform: capitalize;
 }
 
 .pokemon .detail .types {
