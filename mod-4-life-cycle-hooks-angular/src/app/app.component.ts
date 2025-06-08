@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
 import { TitleComponent } from "./title/title.component";
 import { CheckSampleComponent } from "./check-sample/check-sample.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, TitleComponent, CheckSampleComponent, CommonModule],
+  imports: [ TitleComponent, CheckSampleComponent, CommonModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
